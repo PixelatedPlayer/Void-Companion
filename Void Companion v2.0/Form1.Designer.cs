@@ -63,6 +63,7 @@
             this.pnlTower = new System.Windows.Forms.Panel();
             this.pnlCBX = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.lblBig = new System.Windows.Forms.Label();
             this.pnlRotA.SuspendLayout();
             this.pnlRotB.SuspendLayout();
             this.pnlRotC.SuspendLayout();
@@ -85,6 +86,7 @@
             this.lblTower.Size = new System.Drawing.Size(223, 218);
             this.lblTower.TabIndex = 0;
             this.lblTower.Text = "Capture / Exterminate / Mobile Defense";
+            this.lblTower.Click += new System.EventHandler(this.toBig);
             // 
             // checkBox5
             // 
@@ -117,6 +119,7 @@
             this.lblRotA.Size = new System.Drawing.Size(215, 183);
             this.lblRotA.TabIndex = 1;
             this.lblRotA.Text = "Rotation A";
+            this.lblRotA.Click += new System.EventHandler(this.toBig);
             // 
             // pnlRotB
             // 
@@ -138,6 +141,7 @@
             this.lblRotB.Size = new System.Drawing.Size(215, 183);
             this.lblRotB.TabIndex = 2;
             this.lblRotB.Text = "Rotation B";
+            this.lblRotB.Click += new System.EventHandler(this.toBig);
             // 
             // checkBox3
             // 
@@ -170,6 +174,7 @@
             this.lblRotC.Size = new System.Drawing.Size(438, 183);
             this.lblRotC.TabIndex = 3;
             this.lblRotC.Text = "Rotation C";
+            this.lblRotC.Click += new System.EventHandler(this.toBig);
             // 
             // checkBox4
             // 
@@ -307,7 +312,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.pictureBox1.Image = global::Void_Companion_v2._0.Properties.Resources.Banner;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(235, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(680, 150);
@@ -340,6 +345,7 @@
             this.lblLocation.Size = new System.Drawing.Size(223, 394);
             this.lblLocation.TabIndex = 0;
             this.lblLocation.Text = "Item Catalog Location";
+            this.lblLocation.Click += new System.EventHandler(this.toBig);
             // 
             // pnlItems
             // 
@@ -514,14 +520,28 @@
             this.label1.Size = new System.Drawing.Size(12, 15);
             this.label1.TabIndex = 0;
             // 
+            // lblBig
+            // 
+            this.lblBig.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.lblBig.Font = new System.Drawing.Font("Arial Narrow", 15F);
+            this.lblBig.ForeColor = System.Drawing.Color.White;
+            this.lblBig.Location = new System.Drawing.Point(5, 5);
+            this.lblBig.Name = "lblBig";
+            this.lblBig.Size = new System.Drawing.Size(908, 546);
+            this.lblBig.TabIndex = 15;
+            this.lblBig.Text = "Item Location";
+            this.lblBig.Visible = false;
+            this.lblBig.Click += new System.EventHandler(this.lblBig_Click);
+            // 
             // Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = global::Void_Companion_v2._0.Properties.Resources.Wallpaper;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(920, 571);
+            this.Controls.Add(this.lblBig);
             this.Controls.Add(this.pnlBoxes);
             this.Controls.Add(this.lblDisclaimer);
             this.Controls.Add(this.pictureBox1);
@@ -584,6 +604,7 @@
         private System.Windows.Forms.Panel pnlTower;
         private System.Windows.Forms.Panel pnlCBX;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblBig;
     }
 }
 

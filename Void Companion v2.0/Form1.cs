@@ -772,5 +772,24 @@ namespace Void_Companion_v2._0
         {
             System.IO.File.WriteAllLines(saveFileLocation, lines);
         }
+
+        private void lblBig_Click(object sender, EventArgs e)
+        {
+            lblBig.Visible = false;
+        }
+
+        private void toBig(object sender, EventArgs e)
+        {
+            Label[] labels = new Label[5] { lblLocation, lblTower, lblRotA, lblRotB, lblRotC };
+
+            for(int i=0; i < labels.Length; i++)
+            {
+                if (sender.Equals(labels[i]))
+                {
+                    lblBig.Visible = true;
+                    lblBig.Text = labels[i].Text;
+                }
+            }
+        }
     }
 }
