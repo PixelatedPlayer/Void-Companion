@@ -114,7 +114,7 @@ namespace Void_Companion_v2._0
                 new Item_Piece("Blueprint",getItem("Nyx"),50,0),
                 new Item_Piece("Chasis",getItem("Nyx"),50,50),
                 new Item_Piece("Helmet",getItem("Nyx"),50,50),
-                new Item_Piece("Systems",getItem("Nyx"),10,0),
+                new Item_Piece("Systems",getItem("Nyx"),10,50),
 
                 new Item_Piece("Blueprint",getItem("Odonata"),30,0),
                 new Item_Piece("Harness",getItem("Odonata"),30,40),
