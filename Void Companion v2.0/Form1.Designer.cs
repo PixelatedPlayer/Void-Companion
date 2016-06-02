@@ -409,8 +409,8 @@
             "Tower IV Defense",
             "Tower IV Interception",
             "Tower IV Survival",
-            "Derelict Defense",
-            "Derelict Survival"});
+            "Orokin Derelict Defense",
+            "Orokin Derelict Survival"});
             this.cbxRot.Location = new System.Drawing.Point(1, 122);
             this.cbxRot.Name = "cbxRot";
             this.cbxRot.Size = new System.Drawing.Size(223, 26);

@@ -227,7 +227,7 @@ namespace Void_Companion_v2._0
                 new Item_Piece("Orokin Cell x3",getItem("")),
                 new Item_Piece("Orokin Cell x5",getItem("")),
 
-                new Item_Piece("Mutalist Alad V Nav Coordinate",getItem(""))
+                new Item_Piece("Mutalist Alad V Nav Coord",getItem(""))
 
             };
 
@@ -357,7 +357,7 @@ namespace Void_Companion_v2._0
                 new Rotation("Orokin Derelict Defense",
                     new Item_Piece[] { getPiece("Rare Fusion Core x3",""), getPiece("Uncommon Fusion Core x3",""), getPiece("Tower I Capture",""), getPiece("Tower I Defense",""), getPiece("Tower I Survival",""), getPiece("Tower I Mobile Defense",""), getPiece("Tower I Exterminate","") },
                     new double[] { 14.29,14.29,14.29,14.29,14.29,14.29,14.29 },
-                    new Item_Piece[] { getPiece("Rare Fusion Core x3",""), getPiece("Uncommon Fusion Core x3",""), getPiece("Mutalist Alad V Nav Coordinate","") },
+                    new Item_Piece[] { getPiece("Rare Fusion Core x3",""), getPiece("Uncommon Fusion Core x3",""), getPiece("Mutalist Alad V Nav Coord","") },
                     new double[] { 38.72,38.72,22.56 },
                     new Item_Piece[] { getPiece("Blueprint","Trinity"), getPiece("Handle","Dual Kamas"), getPiece("Stock","Soma"), getPiece("Tower II Mobile Defense",""), getPiece("Tower II Capture",""), getPiece("Tower II Exterminate",""), getPiece("Forma Blueprint",""), getPiece("Tower II Defense",""), getPiece("Tower II Survival","") },
                     new double[] { 12.91,7.52,7.52,12.91,12.91,12.91,7.52,12.91,12.91 }
@@ -397,11 +397,11 @@ namespace Void_Companion_v2._0
                     new double[] { 14.29,14.29,14.29,14.29,14.29,14.29,14.29 }
                 ),
                 new Rotation("Orokin Derelict Survival",
-                    new Item_Piece[] { getPiece("Rare Fusion Core x3",""), getPiece("Uncommon Fusion Core x3",""), getPiece("Tower I Extermiante",""), getPiece("Tower I Mobile Defense","") },
+                    new Item_Piece[] { getPiece("Rare Fusion Core x3",""), getPiece("Uncommon Fusion Core x3",""), getPiece("Tower I Exterminate",""), getPiece("Tower I Mobile Defense","") },
                     new double[] { 25,25,25,25 },
-                    new Item_Piece[] { getPiece("Tower I Capture",""), getPiece("Tower I Defense",""), getPiece("Tower I Exterminate",""), getPiece("Tower I Mobile Defense",""), getPiece("Mutalist Alad V Nav Coordinate","") },
+                    new Item_Piece[] { getPiece("Tower I Capture",""), getPiece("Tower I Defense",""), getPiece("Tower I Exterminate",""), getPiece("Tower I Mobile Defense",""), getPiece("Mutalist Alad V Nav Coord","") },
                     new double[] { 20,20,20,20,20 },
-                    new Item_Piece[] { getPiece("Barrel","Burston"), getPiece("Tower II Capture",""), getPiece("Tower II Mobile Defense",""), getPiece("Tower II Extermiante",""), getPiece("Systems","Nova"), getPiece("Forma Blueprint","") },
+                    new Item_Piece[] { getPiece("Barrel","Burston"), getPiece("Tower II Capture",""), getPiece("Tower II Mobile Defense",""), getPiece("Tower II Exterminate",""), getPiece("Systems","Nova"), getPiece("Forma Blueprint","") },
                     new double[] { 19.36,19.36,19.36,19.36,11.28,11.28 }
                 ),
 
